@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+html.body
+{
+
+margin:0;
+padding:0;
+height:100%;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+
+.footer
+{
+ position:fixed;
+ bottom:0;
+ left:0;
+ width:100%;
+ height:100%;
+ float:bottom;
+}
+</style>
+
+    <!-- The above 4 meta tags *Must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>SPR|College</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="Image/favicon.ico">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+ 
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- Top Header Area -
+        <div class="top-header-area d-flex justify-content-between align-items-center">
+            <!-- Contact Info -
+            <div class="contact-info">
+                <a href="#"><span>Phone:</span> +44 300 303 0266</a>
+                <a href="#"><span>Email:</span> info@clever.com</a>
+            </div>
+            <!-- Follow Us -
+            <div class="follow-us">
+                <span>Follow us</span>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+        </div>-->
+
+        <!-- Navbar Area -->
+        <div class="clever-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <!-- Menu -->
+                <nav class="classy-navbar justify-content-between" id="cleverNav">
+
+                    <!-- Logo -->
+                    <a class="nav-brand" href="index.html"><img src="img/core-img/index.png" alt=""></a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+
+                        <!-- Close Button -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                &nbsp;
+                                <li><a href="#">About Us</a>
+                                    <ul class="dropdown">
+                                      <!--  <li><a href="index.html">About College</a></li>-->
+                                        <li><a href="college.html">About College</a></li>
+                                        <li><a href="placement.html">About Placements</a></li>
+                                       <!-- <li><a href="instructors.html">Instructors</a></li>-->
+                                      <!--  <li><a href="blog.html">Blog</a></li>-->
+                                       <!-- <li><a href="blog-details.html">Single Blog</a></li>-->
+                                       <!-- <li><a href="regular-page.html">Regular Page</a></li>-->
+                                       <!-- <li><a href="contact.html">Contact</a></li>-->
+                                    </ul>
+                                </li>
+                             <!--   <li><a href="courses.html">Courses</a></li>-->
+                            <!--    <li><a href="instructors.html">Instructors</a></li>-->
+                            &nbsp;
+                                
+                                &nbsp;
+                                <li><a href="contact.jsp">Contact</a></li>
+                            </ul>
+
+                            <!-- Search Button -->
+                           <!-- <div class="search-area">
+                                <form action="#" method="post">
+                                    <input type="search" name="search" id="search" placeholder="Search">
+                                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </form>
+                            </div>-->
+
+                            <!-- Register / Login -->
+                           <!-- <div class="register-login-area">
+                                <a href="#" class="btn">Register</a>
+                                <a href="index-login.html" class="btn active">Login</a>
+                            </div>-->
+
+                        </div>
+                        <!-- Nav End -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Breadcumb Area Start ##### -->
+    <div class="breadcumb-area">
+        <!-- Breadcumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+             <!--   <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Courses</a></li>
+               <li class="breadcrumb-item active" aria-current="page">Art &amp; Design</li>-->
+            </ol>
+        </nav>
+    </div>
+    <!-- ##### Breadcumb Area End ##### -->
+    <div class="instructors-video d-flex align-items-center justify-content-center bg-img" style="background-image: url(img/bg-img/Smit.jpg)">
+        <!-- video btn -->
+        <video width="1920" height="400" controls autoplay>
+  <source src="smit.mp4" type="video/mp4">
+</video>
+        <i class="fa fa-play" aria-hidden="true"></i></a>
+    </div>
+
+    <!-- ##### Catagory ##### -->
+    <div class="clever-catagory bg-img d-flex align-items-center justify-content-center p-2" style="background-image: url(img/bg-img/bg2.jpg)">
+        <h3>STAFF's</h3>
+    </div>
+    <button class="collapsible"><center>Basic Science and Humanities</center></button>
+<div class="content">
+   <section class="popular-courses-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>HOD</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Mandira Biswas</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">Basic Science</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Raj Kumar Das</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">Basic Science</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Sambho Sekhar Ghosh</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">Basic Science</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Prithiraj</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">Basic Science</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Minakshi Sanyal</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">Basic Science</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Rajat Bhowmick</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">Basic Science</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Susmita</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">Basic Science</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Lab Assistant</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Ananta Chatterjee</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">Basic Science</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+                        
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Lab Assistant</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Nisith Singha</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">Basic Science</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+            </div>
+</div>
+</div>
+
+<button class="collapsible"><center>Computer Science and Engineering/ Information Technology</center></button>
+<div class="content">
+   <section class="popular-courses-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>HOD</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Sujit Raha</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">CSE/ IT</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Profressor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Shweta Banerjee</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">CSE/ IT</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Profressor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Rupali Banerjee</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">CSE/ IT</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Profressor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Madhuchanda Basak</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">CSE/ IT</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Profressor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Prosenjit Dinda</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">CSE/ IT</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Profressor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Arindam Dey</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">CSE/ IT</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Profressor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Arpita Saha</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">CSE/ IT</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Lab Assistant</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Jayanta Pratihar</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">CSE/ IT</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+                        
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Lab Assistant</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Abhrendu Bhattacharya</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">CSE/ IT</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+            </div>
+</div>
+</div>
+<button class="collapsible"><center>Electronics and Communication Enginnering</center></button>
+<div class="content">
+   <section class="popular-courses-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>HOD</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Biswajit Mahanty</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">ECE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Pradipta Mondal</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">ECE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Amlan Banerjee</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">ECE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Somnath Roy</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">ECE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Supriyo De</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">ECE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Abhishek Mukherjee</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">ECE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Sarbani Ghosh</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">ECE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Lab Assistant</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Srikanta Roy</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">ECE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+                        
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Lab Assistant</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Ansar Ali Seikh</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">ECE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+            </div>
+</div>
+</div>
+<button class="collapsible"><center>Mechanical Engineering/ Civil Engineering</center></button>
+<div class="content">
+   <section class="popular-courses-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>HOD</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Tapas Chakraborty</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">ME/ CE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Tushar Kanti Biswas</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">ME</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Pritam Das</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">ME</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Prodyot Kr. Dey</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">ME</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Nikhil Ch. Chatterjee</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">ME</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Krishnendu Dasgupta</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">ME/a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Ujjal Baidya</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">ME</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Partha Kayal</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">CE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+                        
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Lab Assistant</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Debasis Goswami</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">ME</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+            </div>
+</div>
+</div>
+<button class="collapsible"><center>Electrical Engineering</center></button>
+<div class="content">
+   <section class="popular-courses-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>HOD</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Avijit Chakraborty</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">EE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Krishna Sarkar</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">EE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Saumen Dhara</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">EE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Kallol Bhaumik</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">EE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Arindam Dey</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">EE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Avik Dutta</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">EE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Professor</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Rudrajit Dutta</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">EE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Lab Assitant</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Joy Chowdhury</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">EE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+                        
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Lab Assitant</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Sk. Nusrudul</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">EE</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+            </div>
+</div>
+</div>
+<button class="collapsible"><center>Office</center></button>
+<div class="content">
+  <section class="popular-courses-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Principal</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Dr. Tanmay Bhattacharya</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">SMIT</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Sr. Accounts Officer</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Susanta Banerjee</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">SMIT</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Admin Officer</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Santanu Dutta</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">SMIT</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Sr. Admin Officerr</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Rajib Banerjee</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">SMIT</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. TPO</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Manas Pramanik</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">SMIT</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Asst. Libarian</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Nirup Manna</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">SMIT</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Canteen In Charge</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Sachindra Nath Mondal</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">SMIT</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Canteen In Charge</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Soumen Ghosh</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">SMIT</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+                        
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="img/bg-img/dp.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Library Asst.</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Kausik Sinha</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">SMIT</a>
+                            </div>
+                            <p></p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+
+                    </div>
+                </div>
+            </div>
+</div>
+ </div>                          
+                            <div class="seat-rating h-100 d-flex align-items-center">
+      
+     
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="row">
+                <div class="col-12">
+                    <!--<div class="load-more text-center wow fadeInUp" data-wow-delay="1000ms">
+                        <a href="#" class="btn clever-btn btn-2">Load More</a>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Popular Course Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <!-- Top Footer Area -->
+        <div class="top-footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Footer Logo -->
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="img/core-img/index1.png" alt=""></a>
+                        </div>
+                        <!-- Copywrite -->
+                        <p><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="dirtybit.html" target="_blank">Team Dirty Bit</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Footer Area -->
+        <div class="bottom-footer-area d-flex justify-content-between align-items-center">
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <a href="#"><span>Phone:</span> +91 9435882695</a>
+                <a href="#"><span>Email:</span> info@dirtybit.com</a>
+            </div>
+            <!-- Follow Us -->
+            <div class="follow-us">
+                <span>Follow us</span>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+
+</html>
