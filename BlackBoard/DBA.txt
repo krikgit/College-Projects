@@ -1,0 +1,7 @@
+Signup(id,name,email,password,mobile)   : id is primary key
+Questions(q_id,question,id)   :  q_id is primary key and id is foriegn key
+Answers(a_id,answer,q_id,id)   : a_id primary key and q_id & id are foriegn key
+
+Use sequnce:
+
+seq_id: start with 1,increment by 1,nocycle,nocache
